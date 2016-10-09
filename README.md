@@ -1,7 +1,7 @@
 # Stegosaurus
 A simple steganography module written in Python. 
 Stegosaurus allows you to hide messages in the last bits of image pixels and retreive it later.
-All hidden data hidden throughout the image based on a user specified password. Without this password it would be extremely difficult to retreive any data from an image or even tell that data was stored in the image.
+All data is hidden throughout the image based on a user specified password. Without this password it would be extremely difficult to retreive any data from an image or even tell that data was stored in the image.
 
 # Image Formats
 So far Stegosaurus has only been tested with png images. Jpg images will not work, as the data is compressed out of the picture.
