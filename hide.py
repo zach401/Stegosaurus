@@ -1,6 +1,6 @@
 import sys
 import getpass
-import Encode
+import Stegosaurus
 
 in_image = sys.argv[1]
 out_image = sys.argv[2]
@@ -12,4 +12,4 @@ pwd= getpass.getpass('Password:')
 
 with open(message_file, 'r') as f:
 	message = f.read()
-	Encode.encode(in_image, out_image, message, pwd)
+	Stegosaurus.encode(in_image, out_image, message, pwd)

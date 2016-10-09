@@ -1,2 +1,3 @@
 # Stegosaurus
 A simple steganography module written in Python. 
+More documentation to come...
