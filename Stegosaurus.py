@@ -70,7 +70,6 @@ def __bit_num_to_loc(bit_num, size, pwd):
 	hash1 = int(hashlib.sha224(pwd.encode('utf-8')).hexdigest(), 16)
 	bit_loc = (hash1*bit_num**2 + hash1//2*bit_num + bit_num) % size
 	return bit_loc
-	return bit_num
 
 def __get_bit(im, bit_loc):
 	width, height = im.size
