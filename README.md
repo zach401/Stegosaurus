@@ -24,11 +24,11 @@ Stegosaurus can be be used from the command line through the hide.py and uncover
 ## uncover.py
 1. Clone or download the repo.
 2. Naviage to the downloaded directory. 
-2. Run the command python3 hide. input_image_name -
+2. Run the command python3 uncover.py input_image_name
 -Replace input_image_name with the full or relative path to the image containing your hidden message.
 3. Enter the same password used to encode the message.
-4. If the password was current, the text hiden in the image will display. If it was not, gibberish will be displayed. 
-5. You will be prompted if you would like to save the message. Type y to save the image.
-6. Enter the full or relative path to the file where you would like to save the image. 
+4. If the password was correct, the text hiden in the image will display. If it was not, gibberish will be displayed. 
+5. You will be prompted if you would like to save the message. Type y to save.
+6. Enter the full or relative path to the file where you would like to save the message. 
 
 
